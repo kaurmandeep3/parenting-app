@@ -57,3 +57,78 @@ header .nav-links a:hover {
     padding: 10px 20px;
     color: #fff;
     background: #
+/* Ask a Question Page Styles */
+.ask-question {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.ask-question h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ask-question p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.question-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.question-form input, 
+.question-form select, 
+.question-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-form button {
+    display: inline-block;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.question-form button:hover {
+    background: #45a049;
+}
+
+.suggestions h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+.suggestions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions ul li {
+    margin: 10px 0;
+}
+
+.suggestions ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.suggestions ul li a:hover {
+    text-decoration: underline;
+}
