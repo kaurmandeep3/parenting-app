@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Managing Toddler Tantrums",
+    "ageGroup": "toddler",
+    "topic": "behavior",
+    "description": "Practical ways to handle tantrums and create calm."
+  },
+  {
+    "id": 2,
+    "title": "Motivating Teenagers",
+    "ageGroup": "teenager",
+    "topic": "education",
+    "description": "Keep your teenager focused and engaged."
+  },
+  {
+    "id": 3,
+    "title": "Healthy Snacks",
+    "ageGroup": "child",
+    "topic": "health",
+    "description": "Quick, healthy snacks for kids on the go."
+  }
+]
