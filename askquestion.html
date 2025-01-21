@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask a Question</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Parenting Platform</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ask_question.html" class="active">Ask a Question</a></li>
+      <li><a href="tips.html">Tips & Advice</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="signup.html">Sign In/Sign Up</a></li>
+    </ul>
+  </header>
+  <main class="ask-question">
+    <h1>Ask a Question</h1>
+    <p>Need advice? Share your parenting challenges with our community or experts!</p>
+    <form action="/submit-question" method="POST" class="question-form">
+      <label for="title">Question Title</label>
+      <input type="text" id="title" name="title" placeholder="E.g., How do I handle toddler tantrums?" required>
+      
+      <label for="details">Details</label>
+      <textarea id="details" name="details" rows="5" placeholder="Provide more context about your question..." required></textarea>
+      
+      <label for="category">Category</label>
+      <select id="category" name="category" required>
+        <option value="" disabled selected>Select a category</option>
+        <option value="toddler">Toddler</option>
+        <option value="teenager">Teenager</option>
+        <option value="behavior">Behavior</option>
+        <option value="education">Education</option>
+        <option value="health">Health</option>
+      </select>
+      
+      <label for="attachments">Attachments (Optional)</label>
+      <input type="file" id="attachments" name="attachments" accept="image/*,video/*">
+      
+      <button type="submit" class="btn">Get Advice Now</button>
+    </form>
+
+    <section class="suggestions">
+      <h2>Similar Questions You Might Find Helpful</h2>
+      <ul>
+        <li><a href="#">How do I stop bedtime battles with my toddler?</a></li>
+        <li><a href="#">Tips for managing sibling rivalry effectively</a></li>
+        <li><a href="#">Dealing with teenage mood swings</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Parenting Platform. All rights reserved.</p>
+  </footer>
+</body>
+</html>
